@@ -1,0 +1,52 @@
+.app{
+    height: 100%;
+    .header{
+        background-color: #23262e;
+        padding: 0;
+        p{
+            margin: 0;
+            float: right;
+            height: 60px;
+            line-height: 60px;
+            color: #FFFFFFB3;
+        }
+        .Suolu{
+            margin-left: 80px;
+            float: left;
+            color: #009688;
+        }
+        .photo{
+            float: right;
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+        .user{
+            margin-right: 20px;
+        }
+       .back{
+            margin-right: 50px;
+            cursor: pointer;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+    .aside{
+        background-color: #23262e;
+        .column-li{
+            width: 200px;
+            &:hover{
+                color: white !important;
+            }
+        }
+    }
+    .el-container{
+        height: 100%;
+        .footer{
+            color: rgb(134, 134, 134);
+            background-color: #eee;
+            height: 60px;
+            line-height: 60px;
+        }
+    }
+}

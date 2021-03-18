@@ -1,0 +1,25 @@
+.specoal{
+    .state,.add{
+        margin-left: 1%;
+    }
+    .el-dropdown-link {
+        cursor: pointer;
+        color: #409EFF;
+    }
+    .el-icon-arrow-down {
+        font-size: 12px;
+    }
+    .search{
+        float: right;
+    }
+    .el-row2{
+        margin-top: 10px;
+        border-top: 1px solid #e0e0e0;
+    }
+    .el-table .warning-row {
+        background: red;
+    }
+    .el-table .success-row {
+        background: red;
+    }
+}
